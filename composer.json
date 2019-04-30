@@ -1,0 +1,15 @@
+{
+    "name": "izjw/take-out",
+    "description": "各大外卖平台sdk集合（有赞、美团、饿了么）",
+    "type": "library",
+    "authors": [
+        {
+            "name": "izjw",
+            "email": "s181863@sina.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"TakeOut\\": "/"}
+    }
+}
