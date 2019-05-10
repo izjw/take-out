@@ -6,10 +6,10 @@
  * Time: 20:07
  */
 
-namespace OrderTool;
+namespace TakeOut\Notify;
 
 
-class BaseNotify implements NotifyInterface
+abstract class BaseNotify implements NotifyInterface
 {
     public static $channelToStatus = [];
 
@@ -26,11 +26,6 @@ class BaseNotify implements NotifyInterface
             self::$_instance = new static();
         }
         return self::$_instance;
-    }
-
-    public function handle($type, $params)
-    {
-        // TODO: Implement handle() method.
     }
 
     /**

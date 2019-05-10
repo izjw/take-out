@@ -6,7 +6,7 @@
  * Time: 20:06
  */
 
-namespace OrderTool;
+namespace TakeOut\Notify;
 
 
 interface NotifyInterface
@@ -18,5 +18,5 @@ interface NotifyInterface
      * author: 张峻玮
      * date:2019-04-29
      */
-    public function handle($type,$params);
+    public function handle($params);
 }
